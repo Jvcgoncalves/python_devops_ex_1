@@ -32,7 +32,7 @@ def test_cupom_soma_com_desconto_existente():
     itens = [{100.0, 1}]
     total = calcular_total(
         itens,
-        desconto_perentual=5,
+        desconto_percentual=5,
         cupom="DEVOPS10"
     )
     assert total == 85.0
